@@ -11,12 +11,12 @@ public class Main {
         // Commentaire nul v2
         // Commentaire 3
 
-        System.out.printf("Hello and welcome!");
+        System.out.printf("Welcome!");
 
         for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+            for (int j = 1; j <= i; j++) {
+                System.out.println("*");
+            }
         }
     }
 }
