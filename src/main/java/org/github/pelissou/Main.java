@@ -9,6 +9,7 @@ public class Main {
 
         // Salut c'est le commentaire inutile
         // Commentaire nul v2
+        // Commentaire 3
 
         System.out.printf("Hello and welcome!");
 
